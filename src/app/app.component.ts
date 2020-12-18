@@ -180,6 +180,7 @@ export class AppComponent implements OnInit {
       this.playIteration(toInvest)
     }
 
+    this.multipleGamesCount = null;
   }
 
   private playIteration(toInvest: boolean): string {
